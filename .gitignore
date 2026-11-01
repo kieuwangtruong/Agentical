@@ -10,6 +10,7 @@ public_test/
 *.sqlite
 result/
 logs/
+submission.jsonl
 
 # Environments
 .env
@@ -24,3 +25,4 @@ ENV/
 Thumbs.db
 [Dd]esktop.ini
 *.log
+
