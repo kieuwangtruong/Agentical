@@ -13,7 +13,7 @@
 
 | Phase | Nội dung chính | Thời hạn | Trạng thái | Ghi chú |
 |---|---|---|---|---|
-| **Phase 1** | Audit workspace, phân tích schema, xây dựng Scorer & Validation split | 29/10 – 02/11 | **IN_PROGRESS** | Đã audit file, cấu trúc dữ liệu, rulebook; đang lập scorer |
+| **Phase 1** | Audit workspace, phân tích schema, xây dựng Scorer & Validation split | 29/10 – 02/11 | **IN_PROGRESS** | Đã hoàn thành audit, rulebook analysis, tools/evaluator.py (100% test pass), docs/TEAM_BRIEFING.md |
 | **Phase 2** | End-to-end Baseline (Schema Loader, SQL/Execution engine, Format validator) | 03/11 – 06/11 | TODO | Xây pipeline xác định + rule/LLM engine |
 | **Phase 3** | Chạy Public Test submission đầu tiên, Error Analysis trên Validation | 07/11 – 09/11 | TODO | Đảm bảo format chuẩn 100%, không dính lỗi phạt ngớ ngẩn |
 | **Phase 4** | Tối ưu Semantics, Rule Engine, Time engine, Multi-table Join, Unanswerable/Abstain | 10/11 – 12/11 | TODO | Xử lý các edge cases của 6+ ngành hàng |
