@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Competition datasets (Do not push large datasets to GitHub)
+train/
+public_test/
+*.zip
+*.sqlite
+result/
+logs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS files
+.idea/
+.vscode/
+Thumbs.db
+[Dd]esktop.ini
+*.log
